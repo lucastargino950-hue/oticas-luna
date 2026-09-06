@@ -4,7 +4,7 @@
  * O WhatsApp deve conter DDI + DDD + número, sem espaços ou símbolos.
  */
 const contatos = {
-  nome: 'Óticas Lunai',
+  nome: 'Óticas LN',
   logo: 'images/LUNAI.jpg',
   frase: 'Seu olhar merece estilo.',
   whatsapp: '5511950823379',
