@@ -6,7 +6,7 @@
 const contatos = {
   nome: 'Óticas LN',
   logo: 'images/LUNAI.jpg',
-  frase: 'Seu olhar merece estilo.',
+  frase: 'Cada olhar revela sua essência única.',
   whatsapp: '5511950823379',
   instagram: 'https://www.instagram.com/oticasln_/?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==',
 };

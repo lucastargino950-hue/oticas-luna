@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Avaliações dos clientes da Óticas LN.">
+  <title>Avaliações | Óticas LN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="avaliacoes.css">
+</head>
+<body>
+  <main class="reviews-page">
+    <a class="back-link" href="index.html">
+      <i data-lucide="arrow-left"></i>
+      <span>Voltar para Óticas LN</span>
+    </a>
+
+    <header class="reviews-header">
+      <p class="profile-label">experiências reais</p>
+      <h1>Quem escolhe a Óticas LN, recomenda.</h1>
+      <p>Veja o que nossos clientes acharam dos produtos e do atendimento.</p>
+    </header>
+
+    <section class="reviews-grid" aria-label="Avaliações dos clientes">
+      <article class="review-card">
+        <div class="review-person">
+          <img src="images/1.jpeg" alt="Foto de Lana Bastos" loading="lazy">
+          <div>
+            <h2>Lana Bastos</h2>
+          </div>
+        </div>
+        <div class="stars" aria-label="5 estrelas">★★★★★</div>
+        <p class="review-text">Super indico! Produto de ótima qualidade. Eu amei, chegou antes do prazo.</p>
+      </article>
+
+      <article class="review-card">
+        <div class="review-person">
+          <img src="images/2.jpeg" alt="Foto de Priscila Squeda" loading="lazy">
+          <div>
+            <h2>Priscila Squeda</h2>
+          </div>
+        </div>
+        <div class="stars" aria-label="5 estrelas">★★★★★</div>
+        <p class="review-text">Amei o atendimento da Lorena, mega atenciosa. Sobre a ótica, é maravilhosa! Faço meus óculos há mais de 3 anos com eles, e foi a primeira vez que fiz online. Amei! Entrega muito rápida.</p>
+      </article>
+
+      <article class="review-card">
+        <div class="review-person">
+          <img src="images/3.jpeg" alt="Foto de Graciely Ribeiro" loading="lazy">
+          <div>
+            <h2>Graciely Ribeiro</h2>
+          </div>
+        </div>
+        <div class="stars" aria-label="5 estrelas">★★★★★</div>
+        <p class="review-text">Atendimento da Lorena maravilhoso! Sempre compro na LN, os óculos são lindos sempre. Obrigada, Lorena, pelo seu lindo atendimento... 😘</p>
+      </article>
+
+      <article class="review-card">
+        <div class="review-person">
+          <img src="images/4.jpeg" alt="Foto de Bruna Segantim" loading="lazy">
+          <div>
+            <h2>Bruna Segantim</h2>
+          </div>
+        </div>
+        <div class="stars" aria-label="5 estrelas">★★★★★</div>
+        <p class="review-text">Acabei de receber meu óculos, é lindo, amei! Com certeza irei comprar novos óculos com vocês, sem falar no atendimento maravilhoso que tive com a Ísis, uma atendente muito atenciosa, nota 1000. Muito obrigada! ❤️</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <strong>Óticas LN</strong>
+    <span>© <span id="review-year">2026</span> Óticas LN — Todos os direitos reservados.</span>
+  </footer>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.js"></script>
+  <script>
+    document.getElementById('review-year').textContent = new Date().getFullYear();
+    if (window.lucide) window.lucide.createIcons();
+  </script>
+</body>
+</html>
