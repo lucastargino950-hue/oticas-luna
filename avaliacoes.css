@@ -98,6 +98,69 @@
   color:var(--paper-muted);
   font:italic 16px/1.55 var(--serif)
 }
+.review-image {
+  display:block;
+  width:100%;
+  max-height:420px;
+  margin-top:14px;
+  border-radius:10px;
+  object-fit:contain;
+  background:rgba(255,255,255,.92)
+}
+.review-image-button {
+  display:block;
+  width:100%;
+  padding:0;
+  border:0;
+  border-radius:10px;
+  background:none;
+  cursor:zoom-in
+}
+.review-image-button:focus-visible {
+  outline:2px solid var(--sage);
+  outline-offset:4px
+}
+.image-modal[hidden] {
+  display:none
+}
+.image-modal {
+  position:fixed;
+  z-index:10;
+  inset:0;
+  display:grid;
+  place-items:center;
+  padding:28px;
+  background:rgba(0,18,30,.86);
+  cursor:zoom-out
+}
+.image-modal img {
+  max-width:min(100%,900px);
+  max-height:calc(100vh - 56px);
+  border-radius:10px;
+  object-fit:contain;
+  cursor:default
+}
+.image-modal-close {
+  position:absolute;
+  top:16px;
+  right:20px;
+  width:40px;
+  height:40px;
+  border:1px solid rgba(255,255,255,.55);
+  border-radius:50%;
+  background:rgba(0,0,0,.25);
+  color:var(--paper);
+  font-size:28px;
+  line-height:1;
+  cursor:pointer
+}
+.image-modal-close:focus-visible {
+  outline:2px solid var(--sage);
+  outline-offset:3px
+}
+body.modal-open {
+  overflow:hidden
+}
 @media(max-width:760px) {
   .reviews-page {
     min-height:calc(100vh - 105px)
